@@ -1,0 +1,149 @@
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(write/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: Krona One;
+    src: url(fonts/KronaOne-Regular.ttf);
+}
+.container{
+    width: 1240px;
+    margin: 0 auto;
+
+}
+
+.hero{
+    height: 1220px;
+    background: url(https://s3-alpha-sig.figma.com/img/b20c/2a3d/1e73c1e6b02f6056d2e1feda1f11b453?Expires=1697414400&Signature=g6QmHdBOeZfkqvWj3~eb5mUlhCLH-gRSOV6i64aY-IGHJ4fnqHAD7Q~zq79bhGuwjkS5QlwtW~xmzFlZ2brLFnscREgzvt75C97RVOFpQJwvygkTvnBpqy-2bt4djtMrXsLwDc8ZuUAiH1H6bBLsurl3j1ZQ-5CLDAqxmkgUjg99~TJT9nOiSa~mGNtpzxBA2OiFonbI4ZaaHw9rz8mT97e8COdJ7418Uq9BRmhZekOZhf1fuO4zJGnUv7WQF3VASDurr~eP~hfimFNCdzvGNEsYRQQsA36x6WRrEfcrFNghaUKnMd1XrEGhxGONm7WS5oy~OkCtUOM6C35r6D1R3A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4) 0 0 / cover;
+}
+
+.hero-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     width: 39px;
+    height: 39px;
+    gap: 120px;
+}
+
+.hero-title{
+   color: #151515;
+    font-family: Krona One;
+    font-size: 24px;
+    font-weight: 400;
+    align-items: center; 
+    margin-left: -80px;
+}
+
+.hero-btn{
+    width: 236px;
+    height: 44px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    background: none;
+    text-transform: uppercase;
+    border: 3px solid #FFF;
+    background: rgba(255, 255, 255, 0.00);
+}
+
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+ 
+.hero__info-title{
+    color: #FFF;
+    font-family: Krona One;
+    font-size: 96px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 200px;
+    flex-direction: column;
+}
+
+
+.about{
+    display: flex;
+    flex-direction: row;
+    background: #FFF;
+    width: 680px;
+    align-items: center;
+}
+
+.about__info-title{
+    color: #151515;
+    font-family: Krona One;
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 733px;
+    
+}
+
+.about__info-text{
+    color: #151515;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 193%;
+    width: 680px;
+    margin-left: 100px;
+}
+
+.about-img{
+    width: 956px;
+    height: 1081px;
+    flex-shrink: 0;
+
+}
+
+.gallery{
+    width: 2750px;
+    height: 2030px;
+    background: #181818;
+}
+
+.gallery__title{
+    width: 348px;
+    color: #FFF;
+    font-family: Krona One;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 118px 1446px 1854px 126px;
+    padding-top: 118px;
+}
+
+.gallery__image img{
+    width: 100%;
+    height: 100%;
+}
+
+.gallery__image{
+    display: grid;
+    grid-template-columns: 652px 616px 632px;
+    grid-template-rows: 411px 479px 360px;
+    gap: 10px;
+    object-fit: cover;
+}
+
